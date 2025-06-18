@@ -201,15 +201,7 @@
     <script>
         function acceptCookies() {
             document.getElementById('cookiePopup').classList.add('hidden');
-            localStorage.setItem('cookiesAccepted', 'true');
         }
-
-        // Check if cookies were already accepted
-        window.addEventListener('load', function() {
-            if (localStorage.getItem('cookiesAccepted') === 'true') {
-                document.getElementById('cookiePopup').classList.add('hidden');
-            }
-        });
     </script>
 </body>
 </html>
