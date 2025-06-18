@@ -1,0 +1,21 @@
+# Temporary files
+._*
+.DS_Store
+Thumbs.db
+.tmp
+.temp
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# macOS specific
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Windows specific
+desktop.ini
+ehthumbs.db
